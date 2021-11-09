@@ -1,0 +1,23 @@
+.filledTeamSlot {
+    align-items: center;
+    background-color: #508484;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    min-height: 50px;
+    min-width: 50px;
+    width: auto;
+}
+
+.filledTeamSlot:hover {
+    background-color: #79C99E;
+    transform: scale(1.1);
+    transition-duration: 300ms;
+}
+
+.filledSlotImage {
+    height: 90%;
+    width: 90%;
+}

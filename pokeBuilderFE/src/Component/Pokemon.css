@@ -1,0 +1,164 @@
+.Pokemon {
+    align-items: center;
+    background-color: #508484;
+    border: 2px solid white;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    height: 120px;
+    min-height: 120px;
+    min-width: 120px;
+    padding: 0.5rem;
+    position: relative;
+    width: 120px;
+}
+
+/*.Pokemon:active {*/
+/*    transform: scale(1.025);*/
+/*}*/
+
+.pokemonImage {
+    height: 50%;
+    width: 50%;
+}
+
+.number {
+    align-items: center;
+    color: #97db4f;
+    display: flex;
+    flex-direction: row;
+    font-size: small;
+    font-weight: bold;
+}
+
+.pokeName {
+    font-size: small;
+    font-weight: bold;
+    text-align: center;
+}
+
+.typeList {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    font-size: small;
+    gap: 0.5rem;
+    justify-content: center;
+    padding: 0.5rem;
+    width: 100%;
+}
+
+.type {
+    background-color: red;
+    border: 2px solid white;
+    border-radius: 1rem;
+    font-size: x-small;
+    font-weight: bold;
+    padding: 0.25rem 0;
+    text-align: center;
+    width: 50px;
+}
+
+.fire {
+    background-color: red;
+}
+
+.grass {
+    background-color: green;
+}
+
+.poison {
+    background-color: purple;
+}
+
+.water {
+    background-color: blue;
+}
+
+.flying {
+    background-color: darkslateblue;
+}
+
+.normal {
+    background-color: darkgray;
+}
+
+.bug {
+    background-color: yellowgreen;
+}
+
+.electric {
+    background-color: goldenrod;
+}
+
+.ground {
+    background-color: tan;
+}
+
+.fighting {
+    background-color: brown;
+}
+
+.psychic {
+    background-color: rebeccapurple;
+}
+
+.rock {
+    background-color: saddlebrown;
+}
+
+.steel {
+    background-color: slategray;
+}
+
+.ice {
+    background-color: cornflowerblue;
+}
+
+.ghost {
+    background-color: mediumpurple;
+}
+
+.fairy {
+    background-color: pink;
+}
+
+.dragon {
+    background-color: darkred;
+}
+
+.dark {
+    background-color: black;
+}
+
+.actionModal {
+    align-items: center;
+    background-color: darkslategrey;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    height: 100%;
+    justify-content: center;
+    opacity: 90%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+.modalButton {
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 1rem;
+    color: white;
+    min-height: 40px;
+    min-width: 40px;
+    opacity: 100%;
+    padding: 0 1rem;
+}
+
+.modalButton:hover {
+    background-color: #508484;
+    transform: scale(1.1);
+}
