@@ -1,5 +1,3 @@
-import {Link} from "react-router-dom";
-import {CgPokemon} from "react-icons/cg";
 import FilterBar from "../Component/FilterBar";
 import TeamBuilder from "../Component/TeamBuilder";
 import PokemonList from "../Component/PokemonList";
@@ -32,18 +30,6 @@ const Build = () => {
 
     return (
         <div className="App">
-            <header className={"header"}>
-                <div className={"title"}>
-                    <Link to={"/"} className ={"title"}>
-                        <CgPokemon/>
-                        <div>PokéBuilder</div>
-                    </Link>
-                </div>
-                <div className={"navBar"}>
-                    <Link to={"/teams"}>Teams</Link>
-                    <Link to={"/login"}>Login</Link>
-                </div>
-            </header>
             <div className={"content"}>
                 <FilterBar pokemonData={pokemonData} setPokemonData={setPokemonData}
                            setPageNumber={setPageNumber}/>

@@ -16,12 +16,30 @@
     padding: 1rem;
 }
 
+.activeLink {
+    color: #97db4f;
+    font-size: large;
+    text-decoration: none;
+}
+
+.inactiveLink {
+    color: white;
+    font-size: medium;
+    text-decoration: none;
+}
+
+.link:active{
+    color: #79C99E;
+}
+
 .title {
     align-items: center;
     color: white;
     display: flex;
     flex-direction: row;
+    font-size: x-large;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .navBar {

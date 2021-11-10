@@ -1,11 +1,37 @@
+.teamBuilderContainer {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    height: 10%;
+    justify-content: center;
+    max-height: 30%;
+    min-height: 10%;
+    min-width: 90%;
+    padding: 0.5rem;
+    width: 90%;
+}
+
 .TeamBuilder {
     align-items: center;
     display:flex;
     flex-direction: row;
     gap: 0.5rem;
     justify-content: center;
-    height: 10%;
-    min-height: 10%;
-    width: 90%;
-    min-width: 90%;
+    height: 100%;
+    width: 80%;
+}
+
+.saveButton {
+    background-color: transparent;
+    border: 2px solid #97db4f;
+    border-radius: 1rem;
+    color: #97db4f;
+    font-size: small;
+    font-weight: bold;
+    padding: 0 1rem;
+}
+
+.saveButton:active {
+    transform: scale(1.1);
 }
