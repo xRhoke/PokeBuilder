@@ -1,0 +1,18 @@
+.teamSlot {
+    align-items: center;
+    background-color: #508484;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    min-height: 50px;
+    min-width: 50px;
+    width: auto;
+}
+
+.teamSlotImage {
+    height: 90%;
+    width: 90%;
+}

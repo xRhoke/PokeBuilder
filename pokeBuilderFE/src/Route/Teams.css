@@ -1,0 +1,10 @@
+.Teams {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    height: 80%;
+    min-height: 80%;
+    width: auto;
+
+}

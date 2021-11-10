@@ -1,0 +1,10 @@
+.TeamList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    height: 100%;
+    overflow-y: scroll;
+    padding: 0.5rem;
+    width: 100%;
+}

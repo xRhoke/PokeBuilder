@@ -1,6 +1,7 @@
 package com.elliott.ham.pokeBuilderBE.Controller;
 
 import com.elliott.ham.pokeBuilderBE.Model.PokemonDTO;
+import com.elliott.ham.pokeBuilderBE.Model.Team;
 import com.elliott.ham.pokeBuilderBE.Service.PokemonService;
 import org.springframework.web.bind.annotation.*;
 
@@ -36,5 +37,6 @@ public class PokemonController {
     public ArrayList<Object> getPokemonStats(@PathVariable int id){
         return this.pokemonService.getPokemonStats(id);
     }
+
 
 }

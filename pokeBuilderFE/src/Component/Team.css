@@ -1,0 +1,11 @@
+.Team {
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: row;
+    height: 10%;
+    justify-content: space-between;
+    padding: 0.5rem;
+    width: 90%;
+}
