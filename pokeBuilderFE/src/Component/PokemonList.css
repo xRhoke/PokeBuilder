@@ -1,0 +1,19 @@
+#PokemonList {
+    align-content: flex-start;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 0.5rem;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    height: 50%;
+    justify-content: center;
+    min-height: 50%;
+    min-width: 90%;
+    overflow-y: scroll;
+    padding: 1rem;
+    width: 90%;
+    z-index: 2;
+}

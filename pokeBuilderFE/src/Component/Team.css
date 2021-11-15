@@ -1,0 +1,51 @@
+.teamContainer {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    height: 25%;
+    width: 90%;
+
+}
+
+.teamName {
+    align-self: flex-start;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.Team {
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    height: 80%;
+    justify-content: space-evenly;
+    padding: 0.5rem;
+    width: 100%;
+}
+
+.teamButtonRow {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.statsButton {
+    color: #97db4f;
+    min-height: 40px;
+    min-width: 40px;
+}
+
+.deleteButton {
+    color: salmon;
+    min-height: 40px;
+    min-width: 40px;
+}

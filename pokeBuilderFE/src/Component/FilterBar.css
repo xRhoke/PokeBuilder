@@ -1,0 +1,58 @@
+.FilterBar {
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 0.5rem;
+    color: #97db4f;
+    display: flex;
+    flex-direction: column;
+    font-size: small;
+    font-weight: bold;
+    gap: 0.5rem;
+    padding: 1rem;
+    width: auto;
+}
+
+.filterTitle {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+.filterIcon {
+    align-self: center;
+    font-size: large;
+    font-weight: bold;
+}
+
+.filterRow {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.filterInput {
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 0.5rem;
+    color: #97db4f;
+    font-size: 16px;
+    width: 30%;
+}
+
+.resetButton {
+    background-color: transparent;
+    border: 2px solid salmon;
+    border-radius: 0.5rem;
+    color: salmon;
+    font-size: small;
+    font-weight: bold;
+    padding: 0 1rem;
+}
+
+.resetButton:active {
+    transform: scale(1.1);
+}
+

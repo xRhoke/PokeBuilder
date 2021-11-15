@@ -1,0 +1,131 @@
+.PokeDetails {
+    background-color: black;
+    border: 5px solid white;
+    border-radius: 0.5rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    height: auto;
+    padding: 0.5rem;
+    position: fixed;
+    top: 20%;
+    width: 80%;
+    z-index: 3;
+}
+
+.detailsCloseButton {
+    background-color: transparent;
+    border: 2px solid salmon;
+    border-radius: 0.5rem;
+    color: salmon;
+    font-weight: bolder;
+    height: 40px;
+    min-height: 40px;
+    min-width: 40px;
+    position: absolute;
+    right: 1rem;
+    width: 40px;
+    z-index: 10;
+}
+
+.detailsCloseButton:hover {
+    transform: scale(1.1);
+}
+
+.detailRow1 {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    height: 90%;
+    padding: 0.5rem;
+    width: 90%;
+}
+
+.imageWithType {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    height: 100%;
+    min-width: 30%;
+    padding: 0.5rem;
+    width: 30%;
+}
+
+.pokemonDetailsImage {
+    background-color: white;
+    border-radius: 0.5rem;
+    height: 100px;
+    width: 100px;
+}
+
+.detailsTypeList {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 100%;
+}
+
+.pokemonData {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    height: 70%;
+    padding: 0.5rem;
+    width: 60%;
+}
+
+.pokemonName {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: bold;
+    gap: 1rem;
+}
+
+.pokemonNumber {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #97db4f;
+}
+
+.abilities{
+    display: flex;
+    flex-direction: column;
+    font-size: small;
+    gap: 0.5rem;
+    width: 75%;
+}
+
+.abilityName{
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    padding: 0rem 1rem;
+    text-align: center;
+}
+
+.heightWeight {
+    display: flex;
+    flex-direction: column;
+    font-size: small;
+    gap: 0.5rem;
+}
+
+.pokemonStats {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 140px;
+}
+
+.statChart {
+    width: 100%;
+}
+
+
