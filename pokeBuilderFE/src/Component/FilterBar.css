@@ -1,7 +1,7 @@
 .FilterBar {
     align-items: center;
     border: 2px solid white;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     color: #97db4f;
     display: flex;
     flex-direction: column;
@@ -29,7 +29,6 @@
     align-items: center;
     display: flex;
     flex-direction: row;
-    gap: 1rem;
     width: 100%;
     justify-content: space-between;
 }
@@ -37,16 +36,16 @@
 .filterInput {
     background-color: black;
     border: 2px solid white;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     color: #97db4f;
     font-size: 16px;
-    width: 25%;
+    width: 30%;
 }
 
 .resetButton {
     background-color: transparent;
     border: 2px solid salmon;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     color: salmon;
     font-size: small;
     font-weight: bold;

@@ -1,0 +1,38 @@
+.Login {
+    align-items: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    height: 100%;
+    min-height: 80%;
+    width: 100%;
+}
+
+.loginForm {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    width: 100%;
+}
+
+.formRow {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.loginButton {
+    background-color: transparent;
+    border: 2px solid #97db4f;
+    border-radius: 0.5rem;
+    color: #97db4f;
+    font-size: small;
+    font-weight: bold;
+    padding: 0 1rem;
+}

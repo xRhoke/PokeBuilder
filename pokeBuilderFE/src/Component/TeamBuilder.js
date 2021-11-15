@@ -5,8 +5,9 @@ import axios from "axios";
 
 const TeamBuilder = ({currentTeam, setCurrentTeam}) => {
 
-    const handleSaveTeam = currentTeam => {
-        axios.post("http://localhost:8080/teams", {
+    const handleSaveTeam = event => {
+        axios.post("/teams", {
+            name: event.target.teamName.value,
             poke1id: currentTeam[0].id,
             poke2id: currentTeam[1].id,
             poke3id: currentTeam[2].id,
@@ -53,10 +54,14 @@ const TeamBuilder = ({currentTeam, setCurrentTeam}) => {
                 }
             </div>
             {currentTeam[5] &&
-            <button className={"saveButton"}
-                    onClick={() => handleSaveTeam(currentTeam)}>
-                save
-            </button>
+            <form className={"saveTeamForm"} onSubmit={event => handleSaveTeam(event)}>
+                <div>Name: </div>
+                <input className={"filterInput"} type={"text"} name={"teamName"}/>
+                <button className={"saveButton"}
+                        type={"submit"}>
+                    save
+                </button>
+            </form>
             }
         </div>
     );

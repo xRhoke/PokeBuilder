@@ -19,13 +19,13 @@ const PokeDetails = ({currentPokemon, setCurrentPokemon}) => {
     }, [stats]);
 
     const fetchData = () => {
-        // axios.get("http://localhost:8080/pokemon/" + currentPokemon.id + "/moves")
+        // axios.get("/pokemon/" + currentPokemon.id + "/moves")
         //     .then(response => setMoves(response.data));
 
-        axios.get("http://localhost:8080/pokemon/" + currentPokemon.id + "/abilities")
+        axios.get("/pokemon/" + currentPokemon.id + "/abilities")
             .then(response => setAbilities(response.data));
 
-        axios.get("http://localhost:8080/pokemon/" + currentPokemon.id + "/stats")
+        axios.get("/pokemon/" + currentPokemon.id + "/stats")
             .then(response => setStats(response.data));
     }
 
@@ -59,7 +59,7 @@ const PokeDetails = ({currentPokemon, setCurrentPokemon}) => {
             <button className={"detailsCloseButton"} onClick={() => setCurrentPokemon({})}>X</button>
             <div className={"detailRow1"}>
                 <div className={"imageWithType"}>
-                    <img className={"pokemonDetailsImage"} src={currentPokemon.image} alt={currentPokemon.name}/>
+                    <img className={"pokemonDetailsImage"} src={currentPokemon.smallImage} alt={currentPokemon.name}/>
                     <div className={"detailsTypeList"}>{typeList}</div>
                 </div>
                 <div className={"pokemonData"}>

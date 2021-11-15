@@ -23,6 +23,8 @@ public class PokemonDTO {
 
     private String image;
 
+    private String smallImage;
+
     public int getId() {
         return id;
     }
@@ -69,5 +71,13 @@ public class PokemonDTO {
 
     public void setImage(String image) {
         this.image = image;
+    }
+
+    public String getSmallImage() {
+        return smallImage;
+    }
+
+    public void setSmallImage(String smallImage) {
+        this.smallImage = smallImage;
     }
 }

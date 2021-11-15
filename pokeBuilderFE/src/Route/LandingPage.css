@@ -1,0 +1,79 @@
+.landingPageContainer {
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.LandingPage {
+    align-items: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    height: 90%;
+    justify-content: center;
+    width: 100%;
+}
+
+.landingPageTitleContentContainer {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.landingPageTitle {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    font-size: 32px;
+    font-weight: bold;
+    gap: 0.5rem;
+}
+
+.imgRow {
+    align-items: flex-end;
+    box-shadow: 0 5px 5px -5px white;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    height: 15%;
+    justify-content: center;
+    padding: 0.5rem 0;
+    width: 90%;
+}
+
+.landingPageImage {
+    height: 100%;
+}
+
+.landingPageTitleText {
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.landingPageContent {
+    font-weight: bold;
+    padding: 0 1rem;
+    text-align: center;
+}
+
+.getStarted {
+    align-items: center;
+    display: flex;
+    background-color: transparent;
+    border: 2px solid #97db4f;
+    border-radius: 0.5rem;
+    color: #97db4f;
+    flex-direction: column;
+    font-size: medium;
+    font-weight: bold;
+    height: 40px;
+    min-height: 40px;
+    justify-content: center;
+    margin-top: 1rem;
+    padding: 0 1rem;
+    text-decoration: none;
+}
