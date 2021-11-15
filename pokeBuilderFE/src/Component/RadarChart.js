@@ -33,7 +33,7 @@ const RadarChart = ({chartData}) => {
         },
         scale: {
             min: 0,
-            max: 160,
+            max: 200,
         },
         scales: {
             r: {

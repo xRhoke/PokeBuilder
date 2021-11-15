@@ -10,7 +10,7 @@ const FilledTeamSlot = ({pokemon, currentTeam, setCurrentTeam}) => {
     return (
         <div className={"filledTeamSlot"}
              onClick={() => setCurrentTeam(currentTeam.filter(selected => pokemon.name !== selected.name))}>
-            <img className={"filledSlotImage"} src={pokemon.image} alt={pokemon.name}/>
+            <img className={"filledSlotImage"} src={pokemon.smallImage} alt={pokemon.name}/>
         </div>
     );
 }

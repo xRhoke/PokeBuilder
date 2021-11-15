@@ -1,15 +1,15 @@
 .PokeDetails {
     background-color: black;
     border: 5px solid white;
-    border-radius: 2rem;
+    border-radius: 0.5rem;
     color: white;
     display: flex;
     flex-direction: column;
     font-weight: bold;
-    height: 50%;
+    height: auto;
     padding: 0.5rem;
     position: fixed;
-    top: 25%;
+    top: 20%;
     width: 80%;
     z-index: 3;
 }
@@ -17,14 +17,14 @@
 .detailsCloseButton {
     background-color: transparent;
     border: 2px solid salmon;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     color: salmon;
     font-weight: bolder;
     height: 40px;
     min-height: 40px;
     min-width: 40px;
     position: absolute;
-    right: 0.5rem;
+    right: 1rem;
     width: 40px;
     z-index: 10;
 }
@@ -55,7 +55,7 @@
 
 .pokemonDetailsImage {
     background-color: white;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     height: 100px;
     width: 100px;
 }
@@ -103,9 +103,9 @@
 .abilityName{
     background-color: black;
     border: 2px solid white;
-    border-radius: 2rem;
+    border-radius: 0.5rem;
     font-weight: bold;
-    padding: 0.25rem 1rem;
+    padding: 0rem 1rem;
     text-align: center;
 }
 

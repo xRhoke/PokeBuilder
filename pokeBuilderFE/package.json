@@ -42,5 +42,6 @@
   },
   "devDependencies": {
     "react": "^17.0.2"
-  }
+  },
+  "proxy" : "http://10.99.40.40:8080"
 }

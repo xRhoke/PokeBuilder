@@ -2,7 +2,7 @@ import FilterBar from "../Component/FilterBar";
 import TeamBuilder from "../Component/TeamBuilder";
 import PokemonList from "../Component/PokemonList";
 import PokeDetails from "../Component/PokeDetails";
-import {starterData} from "../data/starterData";
+import {starterData} from "../data/scripts/starterData";
 import {throttle} from "lodash";
 import {useEffect, useState} from "react";
 

@@ -1,7 +1,7 @@
 import "./FilterBar.css"
 import {useEffect, useState} from "react";
 import {MdOutlineFilterList} from "react-icons/md";
-import {starterData} from "../data/starterData";
+import {starterData} from "../data/scripts/starterData";
 
 const FilterBar = ({pokemonData, setPokemonData, setPageNumber}) => {
 

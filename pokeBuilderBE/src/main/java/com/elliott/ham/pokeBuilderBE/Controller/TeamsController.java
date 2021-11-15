@@ -25,4 +25,10 @@ public class TeamsController {
         return this.repository.findAll();
     }
 
+    @DeleteMapping("/{id}")
+    public String deleteTeam(@PathVariable Long id){
+        this.repository.deleteById(id);
+        return "Team with id: " + id + " deleted.";
+    }
+
 }

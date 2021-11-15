@@ -25,6 +25,7 @@ public class PokemonService {
         );
 
         pokemonDTO.setImage(String.format("https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/%s.png", pokemonDTO.getId()));
+        pokemonDTO.setSmallImage(String.format("https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/%s.png", pokemonDTO.getId()));
         pokemonDTOList.add(pokemonDTO);
         }
 
