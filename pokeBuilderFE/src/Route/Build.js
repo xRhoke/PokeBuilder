@@ -1,3 +1,5 @@
+import "./Build.css";
+
 import FilterBar from "../Component/FilterBar";
 import TeamBuilder from "../Component/TeamBuilder";
 import PokemonList from "../Component/PokemonList";
@@ -6,7 +8,7 @@ import {starterData} from "../data/scripts/starterData";
 import {throttle} from "lodash";
 import {useEffect, useState} from "react";
 
-const Build = () => {
+const Build = ({currentUser}) => {
 
     const [pokemonData, setPokemonData] = useState(starterData);
     const [currentPokemon, setCurrentPokemon] = useState({});
@@ -29,11 +31,11 @@ const Build = () => {
     }, [pageNumber, pokemonData]);
 
     return (
-        <div className="App">
+        <div className="Build">
             <div className={"content"}>
                 <FilterBar pokemonData={pokemonData} setPokemonData={setPokemonData}
                            setPageNumber={setPageNumber}/>
-                <TeamBuilder currentTeam={currentTeam} setCurrentTeam={setCurrentTeam}/>
+                <TeamBuilder currentTeam={currentTeam} setCurrentTeam={setCurrentTeam} currentUser={currentUser}/>
                 <PokemonList viewingPokemon={viewingPokemon} setPokemonData={setPokemonData}
                              setCurrentPokemon={setCurrentPokemon} currentTeam={currentTeam}
                              setCurrentTeam={setCurrentTeam}/>

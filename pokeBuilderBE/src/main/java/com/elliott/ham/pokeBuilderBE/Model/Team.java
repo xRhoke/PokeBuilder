@@ -94,4 +94,5 @@ public class Team {
     public void setPoke6id(int poke6id) {
         this.poke6id = poke6id;
     }
+
 }

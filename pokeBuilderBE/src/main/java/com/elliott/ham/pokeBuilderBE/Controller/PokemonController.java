@@ -38,5 +38,4 @@ public class PokemonController {
         return this.pokemonService.getPokemonStats(id);
     }
 
-
 }

@@ -1,5 +1,5 @@
 import './App.css';
-import {Link, NavLink, Outlet, Route, Routes} from "react-router-dom";
+import {Link, NavLink, Route, Routes} from "react-router-dom";
 import {CgPokemon} from "react-icons/cg";
 import {useState} from "react";
 import Build from "./Route/Build";
@@ -8,11 +8,11 @@ import Login from "./Route/Login";
 
 const App = () => {
 
-    const [loggedIn, setLoggedIn] = useState(false);
+    const [loggedIn, setLoggedIn] = useState(JSON.parse(sessionStorage.getItem("loggedIn")));
+    const [currentUser, setCurrentUser] = useState(sessionStorage.getItem("currentUser"));
 
     return (
         <div className={"App"}>
-                <div>
                     <header className={"header"}>
                         <div className={"title"}>
                             <CgPokemon/>
@@ -28,11 +28,13 @@ const App = () => {
                         </div>
                     </header>
                     <Routes>
-                        <Route path={"build"} element={<Build/>}/>
-                        <Route path={"teams"} element={<Teams/>}/>
-                        <Route path={"login"} element={<Login/>} loggedIn={loggedIn} setLoggedIn={setLoggedIn}/>
+                        <Route path={"build"} element={<Build currentUser={currentUser}/>}/>
+                        <Route path={"teams"} element={<Teams currentUser={currentUser}/>}/>
+                        <Route
+                            path={"login"}
+                            element={<Login currentUser={currentUser}
+                                            setCurrentUser={setCurrentUser}/>}/>
                     </Routes>
-                </div>
             }
         </div>
     );

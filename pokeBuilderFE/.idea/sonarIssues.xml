@@ -3,7 +3,17 @@
   <component name="issues">
     <option name="index">
       <map>
+        <entry key="$PROJECT_DIR$/../pokeBuilderBE/src/main/java/com/elliott/ham/pokeBuilderBE/Controller/PokemonController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../pokeBuilderBE/src/main/java/com/elliott/ham/pokeBuilderBE/Controller/TeamsController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../pokeBuilderBE/src/main/java/com/elliott/ham/pokeBuilderBE/Controller/UserController.java">
           <value>
             <set />
           </value>
@@ -18,7 +28,32 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../pokeBuilderBE/src/main/java/com/elliott/ham/pokeBuilderBE/Model/User.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../pokeBuilderBE/src/main/java/com/elliott/ham/pokeBuilderBE/Repository/UserRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../pokeBuilderBE/src/main/java/com/elliott/ham/pokeBuilderBE/Service/AuthService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../pokeBuilderBE/src/main/java/com/elliott/ham/pokeBuilderBE/Service/PokemonService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../pokeBuilderBE/src/main/java/com/elliott/ham/pokeBuilderBE/Service/TeamsService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../pokeBuilderBE/src/main/java/com/elliott/ham/pokeBuilderBE/Service/UserService.java">
           <value>
             <set />
           </value>
@@ -59,6 +94,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/Component/FilterBar.css">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/Component/FilterBar.js">
           <value>
             <set />
           </value>
@@ -128,6 +168,16 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/Hooks/useToken.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/Route/Build.css">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/Route/Build.js">
           <value>
             <set />
@@ -168,7 +218,17 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/index.css">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/index.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/a.dummy">
           <value>
             <set />
           </value>

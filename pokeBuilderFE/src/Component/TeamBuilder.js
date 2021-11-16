@@ -3,10 +3,10 @@ import EmptyTeamSlot from "./EmptyTeamSlot";
 import FilledTeamSlot from "./FilledTeamSlot";
 import axios from "axios";
 
-const TeamBuilder = ({currentTeam, setCurrentTeam}) => {
+const TeamBuilder = ({currentTeam, setCurrentTeam, currentUser}) => {
 
     const handleSaveTeam = event => {
-        axios.post("/teams", {
+        let team = {
             name: event.target.teamName.value,
             poke1id: currentTeam[0].id,
             poke2id: currentTeam[1].id,
@@ -14,9 +14,18 @@ const TeamBuilder = ({currentTeam, setCurrentTeam}) => {
             poke4id: currentTeam[3].id,
             poke5id: currentTeam[4].id,
             poke6id: currentTeam[5].id,
-        })
-            .then(response => console.log(response.data))
-            .then(setCurrentTeam([]));
+        }
+
+        if (currentUser) {
+            console.log("Current user: " + currentUser);
+            axios.post("/teams/" + currentUser, team)
+                .then(response => console.log(response.data));
+        }
+        else {
+            axios.post("/teams", team)
+                .then(response => console.log(response.data))
+                .then(setCurrentTeam([]));
+        }
     };
 
     return (

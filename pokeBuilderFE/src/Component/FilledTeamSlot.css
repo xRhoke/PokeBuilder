@@ -1,14 +1,15 @@
 .filledTeamSlot {
     align-items: center;
     background-color: #508484;
-    border-radius: 5px;
+    border-radius: 0.5rem;
     color: white;
     display: flex;
+    font-size: xx-large;
     justify-content: center;
-    height: 50%;
-    min-height: 50px;
-    min-width: 50px;
-    width: auto;
+    min-height: 80px;
+    max-height: 80px;
+    min-width: 80px;
+    max-width: 80px;
 }
 
 .filledTeamSlot:hover {

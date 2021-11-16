@@ -3,11 +3,6 @@
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
-    height: 20%;
-    justify-content: center;
-    min-height: 20%;
-    min-width: 90%;
-    padding: 0.5rem;
     width: 90%;
 }
 
@@ -15,10 +10,11 @@
     align-items: center;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     gap: 0.5rem;
     justify-content: center;
     height: 100%;
-    width: 80%;
+    width: 100%;
 }
 
 .saveTeamForm {

@@ -1,10 +1,10 @@
 import "./Teams.css";
 import TeamList from "../Component/TeamList";
 
-const Teams = () => {
+const Teams = ({currentUser}) => {
     return (
         <div className={"Teams"}>
-            <TeamList />
+            <TeamList currentUser={currentUser}/>
         </div>
     );
 }
